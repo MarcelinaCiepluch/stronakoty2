@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .col { 
+    display: block;
+    width: 100%;
+  }
+}
+body{
+    background-color: aquamarine;
+}
+.header{
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: fantasy;
+    border-color: black;
+    font-size: xx-large;
+    border-style: groove;
+    background-color: aqua;
+}
+.lil{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left{
+    display: grid;
+    border-color: black;
+    border-style: groove;
+    color: black;
+    float: left;
+    background-color: gray;
+    width: 15%;
+    flex-wrap: wrap;
+}
+ul.a{
+    list-style-type:decimal-leading-zero;
+}
+.right{
+        display: grid;
+        border-color: black;
+        border-style: groove;
+        color: black;
+        float: right;
+        background-color: gray;
+        height: auto;
+}
+.middle{
+    background-color: rgb(67, 204, 158);
+    border-color: black;
+    border-style: groove;
+    display: grid;
+}
+.midsec{
+    border-color: black;
+    border-style: groove;
+    background-image: url('./Images/Banner.jpg');
+    background-size: cover;
+    text-align: center;
+    font-weight: bolder;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #4CAF50; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+  }
+  .button2 {
+    background-color: #ff6565; 
+    color: black; 
+    border: 2px solid #ff6565;
+  }
+  
+  .button2:hover {
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ff0000;
+  }
+  .button3{
+    background-color: grey;
+    border-color: rgb(0, 0, 0);
+    color: black;
+    border: 2px solid;
+  }
+ .button3:hover{
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(0, 0, 0);
+    color: black;
+ }
+ form {
+    display: inline;
+}
+.SignUp{
+    background-color: rgb(55, 243, 180);
+    color: black;
+    text-align: left;
+    text-shadow: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    border-color: black;
+    border-style: groove;
+    }
+    .GodIsDeadLeft{
+        float: left;
+        margin-left: 5px;
+        font-size: 125%;
+        color: black;
+        -webkit-text-stroke-width: 0.25px;
+        -webkit-text-stroke-color: lightskyblue;
+      }
+      .GodIsDeadRight{
+        float: right;
+        text-align: right;
+        margin-right: 5px;
+        font-size: 125%;
+        color: black;
+        -webkit-text-stroke-width: 0.25px;
+        -webkit-text-stroke-color: lightskyblue;
+      }
+    .sameline{
+        display: inline;
+    }
+    .white{
+        color: white;
+    }
+    .Cattobox{
+    display: grid;
+    display: inline;
+    border-spacing: 0cm;
+    letter-spacing: 0cm;
+    word-spacing: 0cm;
+    border-style: groove;
+    border-color: black;
+    height: 300px;
+    }
+    .shh{
+        font-size: xx-small;
+        text-align: center;
+    }
+    .SubText{
+        font-size: x-large;
+    }
+    .button4{
+        background-color: grey;
+        border-color: rgb(0, 0, 0);
+        color: black;
+      }
+     .button4:hover{
+        background-color: rgb(168, 168, 168);
+        border-color: rgb(0, 0, 0);
+        color: black;
+     }
+     .comeback{
+        text-align: center;
+     }
+     input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      .button6 {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+      }
+      .cancelbtn {
+        width: 100%;
+     }
+     .container {
+        padding: 16px;
+      }
+      .cry{
+        background-color: aquamarine;
+        color: black;
+      }
+      form {
+        display: inline;
+    }
+    .ficker{
+      text-align: right;
+    }
+    .liner{
+      border-style: groove;
+      border-color: black;
+    }
+    .SubTitles{
+        background-color: rgb(64, 250, 188);
+        color: black;
+        font-size: x-large;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;    
+        font-weight: bolder;
+        border-color: black;
+        border-style: groove;
+        float: center;
+     }
+     .Breaker{
+        text-align: center;
+         }
+.footer{
+    border-color: black;
+    border-style: groove;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bolder;
+    display: grid;
+}
+a.D{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.big{
+    font-size: larger;
+}
+.indamiddle{
+    text-align: center;
+}
+.box{
+    display: grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline;
+    border-spacing: 0cm;
+    letter-spacing: 0cm;
+    word-spacing: 0cm;
+}
